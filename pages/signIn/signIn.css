@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.signin{
+    width: 500px;
+    padding: 40px 20px;
+    background-color: white;
+    }
+body{
+    background-color: #4776E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.signin{
+    width: 400px;
+    padding: 40px 20px;
+    background-color: white;
+    /* text-align: center; */
+    border-radius: 20px;
+}
+
+input{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #240b36;
+}
+input::placeholder{
+    padding-left: 120px;
+}
+ h1{
+    text-align: center;
+    color: #4776E6;
+ }
+.email{
+    margin-top: 20px;
+}
+button{
+    width: 100%;
+    background-color: #4776E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+button:hover::after{
+     /* background: #4ce647; */
+     content: "🥹🥹🥹";
+}
+button:hover::before{
+     /* background: #4ce647; */
+     content: "😘😘😘";
+}
+
+button:active{
+    /* background-color: chocolate; */
+}
+button::before{
+    content: "❤️❤️❤️";
+}
+button::after{
+    content: "💕💕💕";
+}

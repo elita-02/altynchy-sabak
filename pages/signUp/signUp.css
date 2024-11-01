@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.signUp{
+    width: 400px;
+    padding: 40px 20px;
+    background-color: white;
+    /* text-align: center; */
+    border-radius: 20px;
+}
+input {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #cac6d3;
+}
+input::placeholder{
+    padding-left: 120px;
+}
+h1{
+    text-align: center;
+    color: #8E2DE2;
+}
+.name{
+    margin-top: 20px;
+}
+button{
+    width: 100%;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;    
+}
+button:hover::after{
+    /* background: #ca2de2; */
+    content: "😍😍😍";
+}
+button:hover::before{
+    /* background: #ca2de2; */
+    content: "😘😘😘";
+}
+button:active{
+    /* background-color: #e0004e57; */
+}
+button::before{
+    content: "🙂🙂🙂";
+}
+button::after{
+    content: "😉😉😉";
+}
